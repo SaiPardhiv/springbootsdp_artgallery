@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/* Style for the side navbar */
+.side-navbar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 20px;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+/* Navbar links */
+.side-navbar a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: background-color 0.4s ease, transform 0.4s ease, font-weight 0.4s ease;
+    font-weight: normal; /* Ensure the text is normal weight by default */
+}
+
+/* Hover effect for navbar links */
+.side-navbar a:hover {
+    background-color: #708090;
+    transform: scale(1.05); /* Zoom out effect */
+    font-weight: bold; /* Make text bold on hover */
+}
+
+/* Header container */
+#header-container {
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 95%; /* Full width */
+    height: 8vh; /* 10% of viewport height */
+    background-color: #DCDCDC; /* Light grey background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-container h1 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+/* Style for the main content area */
+body {
+    font-family: Arial, sans-serif;
+    margin-left: 250px; /* Leave space for the side navbar */
+    padding: 0;
+    background-color: white;
+}
+
+/* Optional: Add some margin to the page's body */
+h1 {
+    font-size: 2rem;
+}
